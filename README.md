@@ -1,5 +1,14 @@
 # express-crud-api
 
+// create a .env file and add below code with proper values in the file
+host = host name of database   
+user = username of database           
+password = password of database
+database = database name 
+port = port no on which express server will run
+
+
+
 //Database 
 
 create database student;
