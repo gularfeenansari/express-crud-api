@@ -1,7 +1,9 @@
 # express-crud-api
 
 //Database 
+
 create database student;
+
 use student;
 
 //table
@@ -21,10 +23,13 @@ check (standard between 1 and 13)
 
 API Endpoints
 
-Methods	      Urls	              Description
-GET	          /student	          Get all students
-GET	          /student/id	        Get a specific student
-POST	        /student/create	    Create a new student
+Methods	        Urls	              Description
+GET	           /student	           Get all students
+
+GET	           /student/id	        Get a specific student
+
+POST	           /student/create	     Create a new student
+
 Sample data ====>>>
 
 {
@@ -38,7 +43,8 @@ Sample data ====>>>
 
 
 
-PATCH	        /student/update/id	Update an existing student
+PATCH	        /student/update/id	      Update an existing student
+
 Sample data ====>>>
 
 {
@@ -47,4 +53,5 @@ Sample data ====>>>
    "standard" : values greater than 0 and less than 13,
     "address" : "something" 
 }
+
 DELETE	      /student/delete/id	Delete an existing student
